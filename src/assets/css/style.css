@@ -53,3 +53,25 @@
 
 html {
   font-size: 62.5%; }
+
+main {
+  height: 100vh;
+  background-image: url(../../images/bg-pattern-top-desktop.svg), url(../../images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: -3rem -5rem, 30rem 10rem; }
+
+@media only screen and (max-width: 579px) {
+  main {
+    background-image: url(../../images/bg-pattern-top-mobile.svg), url(../../images/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat, no-repeat; } }
+
+ul {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  margin: 0; }
+
+li {
+  margin-left: 1rem;
+  padding: 1rem;
+  background-color: #937b92; }

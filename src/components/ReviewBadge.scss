@@ -1,0 +1,16 @@
+ul {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  margin: 0;
+}
+
+li {
+  margin-left: 1rem;
+}
+
+.rating {
+  background-color: $light;
+  border-radius: $border-radius-lg;
+  padding: 1rem;
+}

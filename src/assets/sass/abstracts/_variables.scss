@@ -2,8 +2,21 @@
 $font-family-sans-serif: 'Spartan', sans-serif;
 $font-size-base: 1.5rem;
 
+// $font-sizes: (
+//   1: 10rem,
+//   2: 4.5rem,
+//   3: 4rem,
+//   4: 3.5rem,
+//   5: 3rem,
+//   6: 2.5rem,
+// );
+
+// $display-font-weight: 700;
+
 // Colors
 $primary: hsl(300, 43%, 22%);
 $secondary: hsl(333, 80%, 67%);
 $dark: hsl(303, 10%, 53%);
 $light: hsl(300, 24%, 96%);
+
+$border-radius-lg: 0.8rem;

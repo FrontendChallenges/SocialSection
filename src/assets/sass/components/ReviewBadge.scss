@@ -35,3 +35,27 @@ li {
     }
   }
 }
+
+@media screen and (max-width: 992px) {
+  ul {
+    justify-content: center;
+  }
+
+  .review {
+    margin-left: 0;
+
+    &__rating {
+      max-width: 100%;
+      text-align: center;
+      &-1,
+      &-2,
+      &-3 {
+        margin-left: 0;
+      }
+
+      & :first-child > ul {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

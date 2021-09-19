@@ -1,4 +1,19 @@
-.heading-priamry {
-  font-size: 4.5rem;
-  letter-spacing: -0.1rem;
+.preview-top {
+  &__title {
+    & h1 {
+      font-size: 4.5rem;
+      letter-spacing: -0.1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .preview-top {
+    &__title {
+      & h1,
+      & p {
+        text-align: center;
+      }
+    }
+  }
 }

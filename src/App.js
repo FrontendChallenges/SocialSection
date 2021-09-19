@@ -18,8 +18,8 @@ function App() {
       <main>
         <section>
           <Container fluid={'md'}>
-            <Row>
-              <Col xs={4}>
+            <Row className='preview-top'>
+              <Col lg={4} md={12} className='preview-top__title'>
                 <TextContent
                   title='10,000+ of our users love our products.'
                   subtitle='We only provide great products combined
@@ -47,7 +47,7 @@ function App() {
                 />
               </Col>
             </Row>
-            <Row className='preview mt-5 g-5'>
+            <Row className='preview-bottom mt-5 '>
               <PreviewCard
                 photo={customer_01}
                 name='Colton Smith '

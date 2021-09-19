@@ -1,4 +1,7 @@
 .preview {
+  &-bottom {
+    gap: 3rem;
+  }
   &__box {
     background-color: $primary;
     border-radius: $border-radius-lg;
@@ -31,5 +34,13 @@
   &__photo {
     max-width: 65%;
     height: auto;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .preview {
+    &-bottom {
+      gap: 1rem;
+    }
   }
 }

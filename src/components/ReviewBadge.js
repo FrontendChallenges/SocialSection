@@ -15,10 +15,12 @@ function ReviewBadge({ review, icon, order }) {
 
   return (
     <Row className={`review__rating review__rating-${order}`}>
-      <Col sm={5}>
+      <Col lg={5} sm={12}>
         <ul>{rating}</ul>
       </Col>
-      <Col sm={7}>{review}</Col>
+      <Col lg={7} sm={12}>
+        {review}
+      </Col>
     </Row>
   );
 }

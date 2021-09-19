@@ -5,7 +5,7 @@ function TextContent({ title, subtitle }) {
   return (
     <>
       <Row>
-        <h1 className='text-primary fw-bold heading-priamry'>{title}</h1>
+        <h1 className='text-primary fw-bold '>{title}</h1>
       </Row>
       <Row className='text-dark mt-3'>
         <p>{subtitle}</p>

@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 
-function ReviewBadge({ review, icon }) {
+function ReviewBadge({ review, icon, order }) {
   let rating = [];
   for (let i = 0; i < 5; i++) {
     rating.push(
@@ -14,7 +14,7 @@ function ReviewBadge({ review, icon }) {
   }
 
   return (
-    <Row className='rating'>
+    <Row className={`review__rating review__rating-${order}`}>
       <Col sm={5}>
         <ul>{rating}</ul>
       </Col>

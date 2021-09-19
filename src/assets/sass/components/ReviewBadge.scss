@@ -9,14 +9,29 @@ li {
   margin-left: 1rem;
 }
 
-.rating {
-  background-color: $light;
-  border-radius: $border-radius-lg;
-  padding: 1rem;
-  max-width: 45rem;
+.review {
+  margin-left: $spacer * 14;
 
-  & > :last-child {
-    font-weight: $font-weight-bold;
-    color: $primary;
+  &__rating {
+    background-color: $light;
+    border-radius: $border-radius-lg;
+    padding: 1.5rem;
+    max-width: 50rem;
+    margin-bottom: $spacer * 1.5;
+
+    & > :last-child {
+      font-weight: $font-weight-bold;
+      color: $primary;
+    }
+
+    &-1 {
+      margin-left: 0;
+    }
+    &-2 {
+      margin-left: $margin-left-sm;
+    }
+    &-3 {
+      margin-left: $margin-left-md;
+    }
   }
 }

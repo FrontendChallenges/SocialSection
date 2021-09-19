@@ -5,10 +5,16 @@ $font-weight-light: 400;
 $font-weight-normal: 500;
 $font-weight-bold: 700;
 
+// Border
+$border-radius-lg: 0.8rem;
+
+// Spaceing
+$spacer: 1rem;
+$margin-left-sm: $spacer * 5;
+$margin-left-md: $spacer * 10;
+
 // Colors
 $primary: hsl(300, 43%, 22%);
 $secondary: hsl(333, 80%, 67%);
 $dark: hsl(303, 10%, 53%);
 $light: hsl(300, 24%, 96%);
-
-$border-radius-lg: 0.8rem;

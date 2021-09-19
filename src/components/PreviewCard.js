@@ -5,17 +5,17 @@ import Image from 'react-bootstrap/Image';
 
 function PreviewCard({ children, photo, name, buyerTitle }) {
   return (
-    <Col className='preview-card p-5'>
+    <Col className='preview__box'>
       <Row className='align-items-center'>
-        <Col>
+        <Col xs={3}>
           <Image
             src={photo}
             alt='Irene Roberts'
             roundedCircle
-            className='preview-card__photo'
+            className='preview__photo'
           />
         </Col>
-        <Col xs={9}>
+        <Col xs={7}>
           <p>{name}</p>
           <p>{buyerTitle}</p>
         </Col>

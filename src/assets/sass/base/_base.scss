@@ -2,11 +2,16 @@ html {
   font-size: 62.5%; // 1rem=10px
 }
 
-main {
+body {
   background-image: url(../../images/bg-pattern-top-desktop.svg),
     url(../../images/bg-pattern-bottom-desktop.svg);
   background-repeat: no-repeat, no-repeat;
   background-position: -3rem -5rem, 30rem 10rem;
+}
+
+main {
+  margin-top: $spacer * 10;
+  margin-bottom: $spacer * 10;
 }
 
 section {

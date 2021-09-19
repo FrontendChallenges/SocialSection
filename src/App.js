@@ -27,17 +27,27 @@ function App() {
                    See what our satisfied customers are saying about our services.'
                 />
               </Col>
-              <Col>
-                <ReviewBadge review='Rated 5 Stars in Reviews' icon={star} />
+              <Col className='review'>
+                <ReviewBadge
+                  review='Rated 5 Stars in Reviews'
+                  icon={star}
+                  order={1}
+                />
 
                 <ReviewBadge
                   review='Rated 5 Stars in Report Guru'
                   icon={star}
+                  order={2}
                 />
-                <ReviewBadge review='Rated 5 Stars in BestTech' icon={star} />
+
+                <ReviewBadge
+                  review='Rated 5 Stars in BestTech'
+                  icon={star}
+                  order={3}
+                />
               </Col>
             </Row>
-            <Row>
+            <Row className='preview'>
               <PreviewCard
                 photo={customer_01}
                 name='Colton Smith '

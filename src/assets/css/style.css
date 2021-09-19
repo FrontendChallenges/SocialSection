@@ -104,17 +104,22 @@ li {
     .review__rating-3 {
       margin-left: 10rem; }
 
-.preview__card {
+.preview__box {
   background-color: #502050;
   border-radius: 0.8rem;
   color: #fff;
-  margin: 1rem;
   padding: 3.5rem; }
-  .preview__card p {
+  .preview__box-1 {
+    margin-top: 0; }
+  .preview__box-2 {
+    margin-top: 1.5rem; }
+  .preview__box-3 {
+    margin-top: 3rem; }
+  .preview__box p {
     margin: 0; }
-    .preview__card p:first-child {
+    .preview__box p:first-child {
       color: #fff; }
-    .preview__card p:last-child {
+    .preview__box p:last-child {
       color: #ee68a4; }
 
 .preview__photo {

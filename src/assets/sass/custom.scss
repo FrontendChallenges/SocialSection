@@ -7,23 +7,10 @@
 // 3. Include remainder of required Bootstrap stylesheets
 @import '../../../node_modules/bootstrap/scss/variables';
 @import '../../../node_modules/bootstrap/scss/mixins';
-// @import '../../../node_modules/bootstrap/scss/utilities';
-
-// $utilities: map-merge(
-//   $utilities,
-//   (
-//     'font-size':
-//       map-merge(
-//         map-get($utilities, 'font-size'),
-//         (
-//           values: $font-sizes,
-//         )
-//       ),
-//   )
-// );
 
 // 4. Include any optional Bootstrap components as you like
 @import '../../../node_modules/bootstrap/scss/root';
+
 // 5. Add additional custom code here
 @import './base/base';
 @import './components/TextContent.scss';

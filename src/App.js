@@ -47,11 +47,12 @@ function App() {
                 />
               </Col>
             </Row>
-            <Row className='preview'>
+            <Row className='preview mt-5 g-5'>
               <PreviewCard
                 photo={customer_01}
                 name='Colton Smith '
                 buyerTitle='Verified Buyer'
+                order={1}
               >
                 "We needed the same printed design as the one we had ordered a
                 week prior. Not only did they find the original order, but we
@@ -62,6 +63,7 @@ function App() {
                 photo={customer_02}
                 name='Irene Roberts'
                 buyerTitle='Verified Buyer'
+                order={2}
               >
                 "Customer service is always excellent and very quick turn
                 around. Completely delighted with the simplicity of the purchase
@@ -72,6 +74,7 @@ function App() {
                 photo={customer_03}
                 name='Anne Wallace'
                 buyerTitle='Verified Buyer'
+                order={3}
               >
                 "Put an order with this company and can only praise them for the
                 very high standard. Will definitely use them again and recommend

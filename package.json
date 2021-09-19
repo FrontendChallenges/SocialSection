@@ -1,4 +1,5 @@
 {
+  "homepage": "https://frontendchallenges.github.io/socialSection/",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -18,7 +19,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "compile:sass": "node-sass src/assets/sass/custom.scss src/assets/css/style.css -w"
+    "compile:sass": "node-sass src/assets/sass/custom.scss src/assets/css/style.css -w",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -39,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "node-sass": "^6.0.1"
   }
 }

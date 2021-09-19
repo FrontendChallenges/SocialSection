@@ -26,4 +26,6 @@
 @import '../../../node_modules/bootstrap/scss/root';
 // 5. Add additional custom code here
 @import './base/base';
-@import '../../components/ReviewBadge.scss';
+@import './components/TextContent.scss';
+@import './components/ReviewBadge.scss';
+@import './components/PreviewCard.scss';

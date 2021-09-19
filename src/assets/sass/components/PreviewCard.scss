@@ -1,0 +1,23 @@
+.preview-card {
+  background-color: $primary;
+  border-radius: $border-radius-lg;
+  color: $white;
+  margin: 1rem;
+
+  &__photo {
+    max-width: 65%;
+    height: auto;
+  }
+
+  & p {
+    margin: 0;
+
+    &:first-child {
+      color: $white;
+    }
+
+    &:last-child {
+      color: $secondary;
+    }
+  }
+}

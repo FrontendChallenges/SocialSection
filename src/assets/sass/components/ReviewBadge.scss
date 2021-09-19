@@ -13,4 +13,10 @@ li {
   background-color: $light;
   border-radius: $border-radius-lg;
   padding: 1rem;
+  max-width: 45rem;
+
+  & > :last-child {
+    font-weight: $font-weight-bold;
+    color: $primary;
+  }
 }

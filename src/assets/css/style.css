@@ -72,6 +72,9 @@ ul {
   margin: 0; }
 
 li {
-  margin-left: 1rem;
-  padding: 1rem;
-  background-color: #937b92; }
+  margin-left: 1rem; }
+
+.rating {
+  background-color: #f7f2f7;
+  border-radius: 0.8rem;
+  padding: 1rem; }

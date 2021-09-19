@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/socialSection/static/css/main.a7875bcb.chunk.css",
+    "main.js": "/socialSection/static/js/main.82e79c6b.chunk.js",
+    "main.js.map": "/socialSection/static/js/main.82e79c6b.chunk.js.map",
+    "runtime-main.js": "/socialSection/static/js/runtime-main.f4d1ae8c.js",
+    "runtime-main.js.map": "/socialSection/static/js/runtime-main.f4d1ae8c.js.map",
+    "static/js/2.1f7906f8.chunk.js": "/socialSection/static/js/2.1f7906f8.chunk.js",
+    "static/js/2.1f7906f8.chunk.js.map": "/socialSection/static/js/2.1f7906f8.chunk.js.map",
+    "index.html": "/socialSection/index.html",
+    "static/css/main.a7875bcb.chunk.css.map": "/socialSection/static/css/main.a7875bcb.chunk.css.map",
+    "static/js/2.1f7906f8.chunk.js.LICENSE.txt": "/socialSection/static/js/2.1f7906f8.chunk.js.LICENSE.txt",
+    "static/media/custom.scss": "/socialSection/static/media/bg-pattern-top-mobile.58eed600.svg",
+    "static/media/icon-star.2d8e7b7c.svg": "/socialSection/static/media/icon-star.2d8e7b7c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4d1ae8c.js",
+    "static/js/2.1f7906f8.chunk.js",
+    "static/css/main.a7875bcb.chunk.css",
+    "static/js/main.82e79c6b.chunk.js"
+  ]
+}

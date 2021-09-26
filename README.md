@@ -34,10 +34,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 - [React](https://reactjs.org/)
 - [React-bootstrap](https://react-bootstrap.github.io/)
 
-### Useful resources
 
-
-### What I learend
 
 
 
